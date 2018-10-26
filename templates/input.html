@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>City Input</title>
+</head>
+<body>
+<input title="Enter city name..." type="text" id="city">
+<input type="submit" title="Submit" id="submit">
+<script type="text/javascript" language="JavaScript">
+    document.getElementById('submit').onclick = function () {
+        let cityWeather = document.getElementById('city').value;
+        window.open(cityWeather + '/');
+    };
+</script>
+</body>
+</html>
